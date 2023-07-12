@@ -1,0 +1,7 @@
+{
+  "name": "every-dollar-clone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
