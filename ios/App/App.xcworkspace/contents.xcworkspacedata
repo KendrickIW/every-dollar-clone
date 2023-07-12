@@ -4,6 +4,16 @@
    <FileRef
       location = "group:App.xcodeproj">
    </FileRef>
+   <Group
+      location = "group:"
+      name = "Pods">
+      <FileRef
+         location = "group:Pods/Target Support Files/Pods-App/Pods-App.debug.xcconfig">
+      </FileRef>
+      <FileRef
+         location = "group:Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
