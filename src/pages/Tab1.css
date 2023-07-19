@@ -1,4 +1,32 @@
 ion-header {
-  --ion-background-color: #0073b9;
+  background: #0073b9;
+  --background: #0073b9;
+  --ion-background-color-rbg: 0, 115, 185;
   --ion-text-color: #ffffff;
+}
+
+ion-toolbar {
+  --background: inherit;
+}
+
+ion-content {
+  --background: #f5f7f8;
+}
+
+ion-segment {
+  --background: #0065a3;
+  width: 98%;
+  margin: 5px auto;
+  padding: 2px;
+}
+
+ion-segment-button {
+  --color: #fff;
+  --indicator-color: #0073b9;
+  --color-checked: #fff;
+}
+
+ion-item.budget-status {
+  width: 100%;
+  text-align: center;
 }

@@ -1,4 +1,4 @@
-import { IonButtons, IonButton, IonContent, IonIcon, IonHeader, IonPage, IonTitle, IonToolbar, IonLabel, IonSegment, IonSegmentButton } from '@ionic/react';
+import { IonButtons, IonButton, IonContent, IonIcon, IonHeader, IonPage, IonTitle, IonToolbar, IonLabel, IonSegment, IonSegmentButton, IonItem } from '@ionic/react';
 
 import { addOutline, chevronDownOutline } from 'ionicons/icons';
 import ExploreContainer from '../components/ExploreContainer';
@@ -32,6 +32,8 @@ const Tab1: React.FC = () => {
             <IonLabel>Remaining</IonLabel>
           </IonSegmentButton>
         </IonSegment>
+        <IonItem className='budget-status'>
+        </IonItem>
       </IonHeader>
       <IonContent fullscreen>
         <ExploreContainer name="Tab 1 page" />
